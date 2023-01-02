@@ -1,0 +1,83 @@
+[
+    {
+        "titulo": "The Complete Node.js Developer Course (3rd Edition)",
+        "autor": "Andrew Mead",
+        "imagen": "./assets/images/cursos/NodeJS.jpg",
+        "avatar": "./assets/images/avatars/nodeJs.png",
+        "descripcion": "Learn Node.js by building real-world applications with Node JS, Express, MongoDB, Jest, and more!",
+        "url": "https://www.udemy.com/certificate/UC-b9795d75-3283-4d8e-b41b-e691ac00a6bf/",
+        "horas": 35
+    },
+    {
+        "titulo": "Angular: De cero a experto",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/ANGULAR.jpg",
+        "avatar": "./assets/images/avatars/angular.png",
+        "descripcion": "Componentes, directivas, servicios, mapas, gráficas, JWT, autenticación, despliegues, mongo, Git, GitHub y mucho más",
+        "url": "https://www.udemy.com/certificate/UC-83ae78c0-d823-49f0-a567-4ff9b40c7a50/",
+        "horas": 44
+    },
+    {
+        "titulo": "Angular Avanzado: Lleva tus bases al siguiente nivel - MEAN",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/ANGULAR_AVANZADO.jpg",
+        "avatar": "./assets/images/avatars/angular.png",
+        "descripcion": "MEAN, Google Signin, JWT, carga de archivos, lazyload, optimizaciones, Git, GitHub, panel administrativo y mucho más.",
+        "url": "https://www.udemy.com/certificate/UC-4247e406-e8b1-41c1-b5c7-1b0c2207b329/",
+        "horas": 32
+    },
+    {
+        "titulo": "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+        "autor": "Jonas Schmedtmann",
+        "imagen": "./assets/images/cursos/CSS-SASS.jpg",
+        "avatar": "./assets/images/avatars/sass.png",
+        "descripcion": "The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more.",
+        "url": "https://www.udemy.com/certificate/UC-8a024243-51dd-4eae-a255-52e82a8a59fc/",
+        "horas": 28
+    },
+    {
+        "titulo": "English Grammar Launch: Upgrade your speaking and listening",
+        "autor": "Anthony Kelleher",
+        "imagen": "./assets/images/cursos/English.jpg",
+        "avatar": "./assets/images/avatars/english.png",
+        "descripcion": "Learn English grammar through lectures and listening and speaking practice, so you can confidently speak English.",
+        "url": "https://www.udemy.com/certificate/UC-bb0aa447-4c80-455e-bd35-b581a5f29819/",
+        "horas": 8
+    },
+    {
+        "titulo": "GIT+GitHub: Todo un sistema de control de versiones de cero",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/GIT+GitHub.jpg",
+        "avatar": "./assets/images/avatars/github.png",
+        "descripcion": "Aprende a trabajar versionando tu código de una forma segura y en equipo.",
+        "url": "https://www.udemy.com/certificate/UC-b3cf1dcf-362b-4c31-953b-a13610b849ad/",
+        "horas": 12
+    },
+    {
+        "titulo": "Build Responsive Real-World Websites with HTML and CSS",
+        "autor": "Jonas Schmedtmann",
+        "imagen": "./assets/images/cursos/HTML-CSS.jpg",
+        "avatar": "./assets/images/avatars/html.png",
+        "descripcion": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid",
+        "url": "https://www.udemy.com/certificate/UC-2f6b3364-5070-4f0a-8a4a-ab36e30a9ba1/",
+        "horas": 37.5
+    },
+    {
+        "titulo": "React: De cero a experto ( Hooks y MERN )",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/REACT-MERN.jpg",
+        "avatar": "./assets/images/avatars/react.png",
+        "descripcion": "Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, MUI, Multiple Routers...",
+        "url": "https://www.udemy.com/certificate/UC-e41e82e1-d85d-4a72-bede-df2c1b4545af/",
+        "horas": 54
+    },
+    {
+        "titulo": "Desarrollo de sistemas web en PHP 7 POO, MySQL, Jquery Ajax",
+        "autor": "Juan Carlos Arcila Díaz",
+        "imagen": "./assets/images/cursos/PHP.jpg",
+        "avatar": "./assets/images/avatars/php.png",
+        "descripcion": "Diseña sistemas web en PHP Orientado Objetos, MariaDB (MySql), Jquery Ajax, HTML5 CSS3 Bootstrap INCLUYE PROYECTO FINAL",
+        "url": "https://www.udemy.com/certificate/UC-aad12a49-14f3-4e95-bd18-96f4e4f11fcd/",
+        "horas": 13
+    }    
+]

@@ -1,0 +1,18 @@
+<mat-card class="curso-card">
+    <mat-card-header>
+      <div mat-card-avatar style="background-size: cover;" [ngStyle]="{'background-image': 'url(' + avatar + ')'}"></div>
+      <mat-card-title>{{ titulo }}</mat-card-title>
+      <mat-card-subtitle class="mt-1">{{ autor }}</mat-card-subtitle>
+    </mat-card-header>
+    <img class="mt-1" mat-card-image [src]="imagen">
+    <mat-card-content>
+      <p class="mt-1">
+        {{ descripcion }}
+      </p>
+
+      <mat-card-actions class="t-align-center center">
+        <mat-icon class="mr-1">timer</mat-icon>
+        {{ horas }} hs.
+      </mat-card-actions>
+    </mat-card-content>
+</mat-card>

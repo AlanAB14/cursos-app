@@ -1,0 +1,25 @@
+
+
+<h1 class="t-align-center">Sitio informativo de Cursos Realizados</h1>
+
+<mat-tab-group dynamicHeight mat-align-tabs="center" class="mt-1">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      Cursos
+      <mat-icon class="example-tab-icon ml-1">laptop_mac</mat-icon>
+    </ng-template>
+
+    <app-cursos-page></app-cursos-page>
+
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      Información
+      <mat-icon class="example-tab-icon ml-1">info</mat-icon>
+    </ng-template>
+
+    <app-informacion-page></app-informacion-page>
+    
+  </mat-tab>
+</mat-tab-group>
