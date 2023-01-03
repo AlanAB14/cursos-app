@@ -1,8 +1,29 @@
 .curso-card {
-    max-width: 300px;
+    max-width: 30rem;
 }
 
 .curso-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
-  }
+}
+
+.card-image {
+    width: 30rem;
+}
+
+.description-text {
+    color: rgb(173, 173, 173);
+    font-size: 1.4rem;
+}
+
+.title-text{
+    font-size: 2rem;
+}
+.autor-text{
+    font-size: 1.4rem;
+}
+
+.time-number {
+    font-size: 1.4rem;
+    margin: 0;
+}

@@ -3,6 +3,36 @@
 html, body { height: 100%; font-size: 62.5%;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+@media (max-width: 1020px) {
+    *,html, body { font-size: 50%; }
+}
+
+@media (max-width: 820px) {
+    *,html, body { font-size: 62.5%; }
+    .flex-layout{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+}
+
+@media (max-width: 820px) {
+    *,html, body { font-size: 50%; }
+}
+
+@media (max-width: 580px) {
+    *,html, body { font-size: 62.5%; }
+    .flex-layout{
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+}
+
+@media (max-width: 420px) {
+    *,html, body { font-size: 50%; }
+}
+
+@media (max-width: 340px) {
+    *,html, body { font-size: 42.5%; }
+}
+
 .t-align-center {
     text-align: center;
 }

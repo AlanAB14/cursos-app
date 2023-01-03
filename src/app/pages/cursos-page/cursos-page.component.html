@@ -1,5 +1,5 @@
 <div>
-    <app-searchbar></app-searchbar>
+    <app-searchbar (onEnter)="cambioTexto( $event )"></app-searchbar>
     
     <div class="flex-layout">
       <div *ngFor="let curso of cursos">

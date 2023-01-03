@@ -1,7 +1,7 @@
-<form class="searchbar-form t-align-center mt-1">
+<form class="searchbar-form t-align-center mt-1 input-text">
   <mat-form-field class="searchbar-input">
-    <mat-label>Buscar...</mat-label>
-    <input type="text" matInput>
+    <mat-label class="input-text">Buscar...</mat-label>
+    <input class="input-text" type="text" matInput #query (keyup)="buscarCursos( query.value )">
     <mat-icon matSuffix>search</mat-icon>
   </mat-form-field>
 </form>

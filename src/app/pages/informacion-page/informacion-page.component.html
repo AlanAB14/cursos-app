@@ -5,10 +5,10 @@
     </mat-card-header>
     <mat-divider></mat-divider>
     <mat-card-content>
-      <p class="mt-1">Cursos Realizados: 9</p>
-      <p class="mb-1">Tiempo Empleado: 9hs</p>
+      <p class="mt-1">Cursos Realizados: {{ cursosRealizados }}</p>
+      <p class="mb-1">Tiempo Empleado: {{ tiempoEmpleado }} hs.</p>
     </mat-card-content>
     <mat-card-footer>
-      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      <mat-progress-bar mode="indeterminate" *ngIf="progressBar"></mat-progress-bar>
     </mat-card-footer>
   </mat-card>

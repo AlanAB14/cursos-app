@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Curso } from 'src/app/interfaces/curso.interface';
-import { CursosService } from 'src/app/services/cursos.service';
 
 @Component({
   selector: 'app-cursos-page',
@@ -9,17 +8,9 @@ import { CursosService } from 'src/app/services/cursos.service';
 })
 export class CursosPageComponent {
 
-  public cursos!: Curso[];
+  @Input() cursos!: Curso[];
 
-  constructor( private cursosService: CursosService ) { }
-
-
-  ngOnInit(): void {
-    this.cursosService.getCursos()
-      .subscribe( cursos => {
-        this.cursos = cursos;
-      })
+  cambioTexto( cursos: Curso[] ) {
+    this.cursos = cursos;
   }
-
-
 }

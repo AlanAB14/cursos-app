@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Curso } from '../interfaces/curso.interface';
+import { CursosService } from '../services/cursos.service';
 
 @Component({
   selector: 'app-home',
@@ -6,22 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  darkMode: boolean = true;
-  themeActive: 'Dark'| 'Light' = 'Dark';
+  public cursos!: Curso[];
+  constructor( private cursosService: CursosService ) { }
 
 
-
-  themeChange() {
-    this.darkMode = !this.darkMode;
-    this.changeThemeLabel();
-  }
-
-  changeThemeLabel() {
-    if (this.darkMode) {
-      this.themeActive = 'Dark';
-    }else {
-      this.themeActive = 'Light';
-    }
+  ngOnInit(): void {
+    this.cursosService.getCursos()
+      .subscribe( cursos => {
+        this.cursos = cursos;
+      })
   }
 
 }
