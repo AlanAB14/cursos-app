@@ -7,13 +7,13 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-curso.component.scss']
 })
 export class CardCursoComponent {
-  @Input() public titulo: string = 'Nuevo curso';
-  @Input() public autor: string = 'Fernando Herrera';
-  @Input() public imagen: string = 'https://material.angular.io/assets/img/examples/shiba2.jpg';
-  @Input() public avatar: string = 'https://material.angular.io/assets/img/examples/shiba2.jpg';
-  @Input() public descripcion: string = 'asdasdasdasd';
-  @Input() public url: string = 'asdas';
-  @Input() public horas: number = 50;
+  @Input() public titulo: string = '';
+  @Input() public autor: string = '';
+  @Input() public imagen: string = '';
+  @Input() public avatar: string = '';
+  @Input() public descripcion: string = '';
+  @Input() public url: string = '';
+  @Input() public horas: number = 0;
 
 
 

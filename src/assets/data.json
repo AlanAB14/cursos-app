@@ -79,5 +79,23 @@
         "descripcion": "Diseña sistemas web en PHP Orientado Objetos, MariaDB (MySql), Jquery Ajax, HTML5 CSS3 Bootstrap INCLUYE PROYECTO FINAL",
         "url": "https://www.udemy.com/certificate/UC-aad12a49-14f3-4e95-bd18-96f4e4f11fcd/",
         "horas": 13
-    }    
+    },    
+    {
+        "titulo": "ReactiveX - RxJs: De cero hasta los detalles",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/REACTIVEX-RxJs.jpg",
+        "avatar": "./assets/images/avatars/reactivex.png",
+        "descripcion": "Todo lo que necesitas saber sobre observables, subscribers, operadores y programación reactiva",
+        "url": "https://www.udemy.com/certificate/UC-591ff828-6033-42a0-94aa-c01d99d1b710/",
+        "horas": 9.5
+    },
+    {
+        "titulo": "The Complete JavaScript Course 2023: From Zero to Expert!",
+        "autor": "Jonas Schmedtmann",
+        "imagen": "./assets/images/cursos/JAVASCRIPT.jpg",
+        "avatar": "./assets/images/avatars/javascript.png",
+        "descripcion": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+        "url": "https://www.udemy.com/certificate/UC-f3f6a639-1e69-4d6d-a5c6-f61aff28c77b/",
+        "horas": 69
+    }  
 ]
