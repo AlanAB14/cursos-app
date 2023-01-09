@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -10,7 +10,8 @@ import { InformacionPageComponent } from './pages/informacion-page/informacion-p
 import { SharedModule } from './shared/shared.module';
 import { CardCursoComponent } from './components/card-curso/card-curso.component';
 import { ComponentsModule } from './components/components.module';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { ServiceWorkerModule } from '@angular/service-worker'
 
 
 @NgModule({
@@ -27,7 +28,13 @@ import { HttpClientModule } from '@angular/common/http'
     SharedModule,
     ComponentsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
