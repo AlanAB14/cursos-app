@@ -97,5 +97,14 @@
         "descripcion": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
         "url": "https://www.udemy.com/certificate/UC-f3f6a639-1e69-4d6d-a5c6-f61aff28c77b/",
         "horas": 69
+    },  
+    {
+        "titulo": "Angular Progressive Web Apps (PWA) MasterClass & FREE E-Book",
+        "autor": "Angular University",
+        "imagen": "./assets/images/cursos/ANGULAR_PWA_PUSH-NOTIFICATIONS.jpg",
+        "avatar": "./assets/images/avatars/angular.png",
+        "descripcion": "Practical Guide to Angular Progressive Web Applications (PWA)",
+        "url": "https://www.udemy.com/certificate/UC-56e639e0-0ea7-4dd6-a89f-cd980bde3073/",
+        "horas": 3.5
     }  
 ]
