@@ -106,5 +106,14 @@
         "descripcion": "Practical Guide to Angular Progressive Web Applications (PWA)",
         "url": "https://www.udemy.com/certificate/UC-56e639e0-0ea7-4dd6-a89f-cd980bde3073/",
         "horas": 3.5
+    },  
+    {
+        "titulo": "Angular: Aplicaciones en tiempo real con sockets y rest",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/ANGULAR_SOCKETS.jpg",
+        "avatar": "./assets/images/avatars/angular.png",
+        "descripcion": "Sockets, express, servicios rest, git, github, CORS, gráficas, google maps, typescript, tareas, ejercicios y más",
+        "url": "https://www.udemy.com/certificate/UC-13759cf1-8c85-4a1f-b785-a7b5095f85fc/",
+        "horas": 9.5
     }  
 ]
