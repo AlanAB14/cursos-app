@@ -115,5 +115,14 @@
         "descripcion": "Sockets, express, servicios rest, git, github, CORS, gráficas, google maps, typescript, tareas, ejercicios y más",
         "url": "https://www.udemy.com/certificate/UC-13759cf1-8c85-4a1f-b785-a7b5095f85fc/",
         "horas": 9.5
+    },  
+    {
+        "titulo": "SQL de cero: Tu guía práctica con PostgreSQL",
+        "autor": "Fernando Herrera",
+        "imagen": "./assets/images/cursos/SQL.jpg",
+        "avatar": "./assets/images/avatars/sql.png",
+        "descripcion": "Diseño, diagrama entidad-relación, triggers, procedimientos, funciones, CTE recursivos, plpgsql y mucho más",
+        "url": "https://www.udemy.com/certificate/UC-a1b9094b-e591-43a8-a7b2-27c7d76ee553/",
+        "horas": 16
     }  
 ]
