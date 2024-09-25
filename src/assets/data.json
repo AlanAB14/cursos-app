@@ -124,5 +124,14 @@
         "descripcion": "Diseño, diagrama entidad-relación, triggers, procedimientos, funciones, CTE recursivos, plpgsql y mucho más",
         "url": "https://www.udemy.com/certificate/UC-a1b9094b-e591-43a8-a7b2-27c7d76ee553/",
         "horas": 16
+    },  
+    {
+        "titulo": "Curso profesional en C#: Aprende de cero a avanzado",
+        "autor": "Jonathan Robayo",
+        "imagen": "./assets/images/cursos/C-sharp.jpg",
+        "avatar": "./assets/images/avatars/C-sharp.png",
+        "descripcion": "POO, WebServices, HTML, CSS, ASP.NET, CRUD, ejercicios de codificación y dos proyectos (Sistema POS y Videojuegoconsola)",
+        "url": "https://www.udemy.com/certificate/UC-31f7695c-bd0a-484b-98d6-1305de5f873d/",
+        "horas": 37.5
     }  
 ]
