@@ -79,7 +79,7 @@
         "descripcion": "Diseña sistemas web en PHP Orientado Objetos, MariaDB (MySql), Jquery Ajax, HTML5 CSS3 Bootstrap INCLUYE PROYECTO FINAL",
         "url": "https://www.udemy.com/certificate/UC-aad12a49-14f3-4e95-bd18-96f4e4f11fcd/",
         "horas": 13
-    },    
+    },
     {
         "titulo": "ReactiveX - RxJs: De cero hasta los detalles",
         "autor": "Fernando Herrera",
@@ -97,7 +97,7 @@
         "descripcion": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
         "url": "https://www.udemy.com/certificate/UC-f3f6a639-1e69-4d6d-a5c6-f61aff28c77b/",
         "horas": 69
-    },  
+    },
     {
         "titulo": "Angular Progressive Web Apps (PWA) MasterClass & FREE E-Book",
         "autor": "Angular University",
@@ -106,7 +106,7 @@
         "descripcion": "Practical Guide to Angular Progressive Web Applications (PWA)",
         "url": "https://www.udemy.com/certificate/UC-56e639e0-0ea7-4dd6-a89f-cd980bde3073/",
         "horas": 3.5
-    },  
+    },
     {
         "titulo": "Angular: Aplicaciones en tiempo real con sockets y rest",
         "autor": "Fernando Herrera",
@@ -115,7 +115,7 @@
         "descripcion": "Sockets, express, servicios rest, git, github, CORS, gráficas, google maps, typescript, tareas, ejercicios y más",
         "url": "https://www.udemy.com/certificate/UC-13759cf1-8c85-4a1f-b785-a7b5095f85fc/",
         "horas": 9.5
-    },  
+    },
     {
         "titulo": "SQL de cero: Tu guía práctica con PostgreSQL",
         "autor": "Fernando Herrera",
@@ -124,7 +124,7 @@
         "descripcion": "Diseño, diagrama entidad-relación, triggers, procedimientos, funciones, CTE recursivos, plpgsql y mucho más",
         "url": "https://www.udemy.com/certificate/UC-a1b9094b-e591-43a8-a7b2-27c7d76ee553/",
         "horas": 16
-    },  
+    },
     {
         "titulo": "Curso profesional en C#: Aprende de cero a avanzado",
         "autor": "Jonathan Robayo",
@@ -133,5 +133,14 @@
         "descripcion": "POO, WebServices, HTML, CSS, ASP.NET, CRUD, ejercicios de codificación y dos proyectos (Sistema POS y Videojuegoconsola)",
         "url": "https://www.udemy.com/certificate/UC-31f7695c-bd0a-484b-98d6-1305de5f873d/",
         "horas": 37.5
-    }  
+    },
+    {
+      "titulo": "Angular Pro: Lleva tus bases al siguiente nivel",
+      "autor": "Fernando Herrera",
+      "imagen": "./assets/images/cursos/ANGULAR_PRO.jpg",
+      "avatar": "./assets/images/avatars/angular.png",
+      "descripcion": "Zoneless, Signals, Bindings, SSR, SSG, SEO, Testing, i18n, TanStack, Monorepos, NPM, Paquetes personalizados y más",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-823bf054-3d2c-4704-a83d-78af10bc42e5.jpg",
+      "horas": 16.5
+  }
 ]
